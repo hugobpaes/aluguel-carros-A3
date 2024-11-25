@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de Carros Usados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aluguel de Carros Usados</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#catalog">Catálogo</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Bem-vindo!</h2>
+        <p>Alugue o carro ideal para as suas necessidades do dia a dia com preços acessíveis.</p>
+    </section>
+    
+    <section id="catalog">
+        <h2>Catálogo de Carros</h2>
+        <div id="car-list"></div>
+    </section>
+    
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form id="reservation-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+            
+            <label for="car">Carro Desejado:</label>
+            <select id="car">
+                <option value="">Selecione...</option>
+            </select>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
